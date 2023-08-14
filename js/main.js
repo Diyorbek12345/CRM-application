@@ -12,7 +12,7 @@ const City = [
     "Xorazm",
     "Qoraqalpog'iston",
   ];
-  const Position = ["React", "Nodejs", "Go", "Python"];
+  const Position = ["React", "Javascript", "Java", "C++"];
   const TypePosition = ["Junior", "Middle", "Senior"];
   
   let pupilsJson = localStorage.getItem("pupils");
@@ -61,8 +61,8 @@ const City = [
         <td>${salary}</td>
         <td>${isMarried ? "Yes" : "No"}</td>
         <td class = "text-end">
-          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pupilModal" onclick="editPupil(${id})"> Edit</button>
-          <button class="btn btn-danger" onclick="deletePupil(${id})"> Delete</button>
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pupilModal" onclick="editPupil(${id})">Edit</button>
+          <button class="btn btn-danger" onclick="deletePupil(${id})">Delete</button>
         </td>
         </tr>
         `;

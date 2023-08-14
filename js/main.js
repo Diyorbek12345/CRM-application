@@ -1,13 +1,13 @@
 const City = [
-    "Tashkent",
-    "Jizzax",
+    "Toshkent",
+    "Jizzah",
     "Samarqand",
     "Navoiy",
     "Buxoro",
-    "Farg'ona",
     "Qashqadaryo",
     "Surxandaryo",
-    "Namangan",
+    "Nmaangan",
+    "Farg'ona",
     "Andijon",
     "Xorazm",
     "Qoraqalpog'iston",
@@ -85,11 +85,11 @@ const City = [
   });
   
   ["Position level", ...TypePosition].forEach((typeposition) => {
-    filterPosition.innerHTML += `<option value="${typeposition}">Choose your work level</option>`;
+    filterPosition.innerHTML += `<option value="${typeposition}">${typeposition}</option>`;
   });
   
   ["Address", ...City].forEach((city) => {
-    filterCity.innerHTML += `<option value="${city}">Choose your hometown</option>`;
+    filterCity.innerHTML += `<option value="${city}">${city}</option>`;
   });
   
   const getPupils = (newPupils) => {

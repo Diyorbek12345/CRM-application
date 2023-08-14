@@ -1,16 +1,16 @@
 const City = [
-    "Andijan",
-    "Bukhara",
-    "Fergana",
-    "Jizzakh",
-    "Karakalpakstan",
-    "Kashkadarya",
-    "Khorezm",
-    "Namangan",
+    "Tashkent",
+    "Jizzax",
+    "Samarqand",
     "Navoiy",
-    "Samarkand",
-    "Sirdaryo",
-    "Surkhandarya",
+    "Buxoro",
+    "Farg'ona",
+    "Qashqadaryo",
+    "Surxandaryo",
+    "Namangan",
+    "Andijon",
+    "Xorazm",
+    "Qoraqalpog'iston",
   ];
   const Position = ["React", "Nodejs", "Go", "Python"];
   const TypePosition = ["Junior", "Middle", "Senior"];

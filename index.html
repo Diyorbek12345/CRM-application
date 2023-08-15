@@ -61,8 +61,8 @@
             <th scope="col">Last Name</th>
             <th scope="col">Address</th>
             <th scope="col">Birthday</th>
-            <th scope="col">Position</th>
-            <th scope="col">Position level</th>
+            <th scope="col">language</th>
+            <th scope="col">Work level</th>
             <th scope="col">Salary</th>
             <th scope="col">Is Married</th>
             <th scope="col" class="text-end"></th>
@@ -95,7 +95,7 @@
             <div class="modal-body">
               <div class="col-12 mb-1">
                 <label for="firstName" class="form-label"
-                  >Please write your Surname</label
+                  >Please write your Name</label
                 >
                 <input
                   type="text"
@@ -125,7 +125,7 @@
                 <div class="valid-feedback">It's filled correctly</div>
               </div>
               <div class="row">
-                <div class="col-6 mb-1">
+                <div class="mb-1">
                   <label for="pupilGroup" class="form-label">Please enter your birthday</label>
                   <input
                     type="date"
@@ -135,18 +135,18 @@
                   />
                   <div class="valid-feedback">It's filled correctly!</div>
                 </div>
-                <div class="col-6 mb-1">
-                  <label for="positionPupil" class="form-label">Which language do you know</label>
-                  <select
-                    class="form-select"
-                    id="positionPupil"
-                    required
-                  ></select>
-                  <div class="valid-feedback">It's filled correctly!</div>
-                </div>
+              </div>
+              <div class="mb-1">
+                <label for="positionPupil" class="form-label">Which language do you know</label>
+                <select
+                  class="form-select"
+                  id="positionPupil"
+                  required
+                ></select>
+                <div class="valid-feedback">It's filled correctly!</div>
               </div>
               <div class="row mb-2">
-                <div class="col-6 mb-1">
+                <div class="mb-1">
                   <label for="typePosition" class="form-label"
                     >Please choose your work level</label
                   >
@@ -157,16 +157,16 @@
                   ></select>
                   <div class="valid-feedback">It's filled correctly!</div>
                 </div>
-                <div class="col-6 mb-1">
-                  <label for="salaryPupil" class="form-label">How much is your salary</label>
-                  <input
-                    class="form-control"
-                    type="number"
-                    step="100"
-                    id="salaryPupil"
-                  />
-                  <div class="valid-feedback">It's filled correctly!</div>
-                </div>
+              </div>
+              <div class="mb-1">
+                <label for="salaryPupil" class="form-label">How much is your salary</label>
+                <input
+                  class="form-control"
+                  type="number"
+                  step="100"
+                  id="salaryPupil"
+                />
+                <div class="valid-feedback">It's filled correctly!</div>
               </div>
               <div class="col-12 mb-1">
                 <div class="form-check">
@@ -191,7 +191,7 @@
                 Close
               </button>
               <button type="submit" class="btn btn-success" id="sendBtn">
-            Add 
+            Add Worker
               </button>
             </div>
           </div>

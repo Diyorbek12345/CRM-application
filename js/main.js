@@ -12,7 +12,7 @@ const City = [
     "Xorazm",
     "Qoraqalpog'iston",
   ];
-  const Position = ["React", "Javascript", "Java", "C++"];
+  const Position = ["React", "Javascript", "Java", "C++", "Puthon", "django", "Node js"];
   const TypePosition = ["Junior", "Middle", "Senior"];
   
   let pupilsJson = localStorage.getItem("pupils");
@@ -84,11 +84,11 @@ const City = [
     typePosition.innerHTML += `<option value="${typeposition}">${typeposition}</option>`;
   });
   
-  ["Position level", ...TypePosition].forEach((typeposition) => {
+  ["Work level", ...TypePosition].forEach((typeposition) => {
     filterPosition.innerHTML += `<option value="${typeposition}">${typeposition}</option>`;
   });
   
-  ["Address", ...City].forEach((city) => {
+  ["Hometown", ...City].forEach((city) => {
     filterCity.innerHTML += `<option value="${city}">${city}</option>`;
   });
   
